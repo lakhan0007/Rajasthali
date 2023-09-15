@@ -8,36 +8,34 @@
   <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-  <!-- Bootstrap CSS and JS -->
+  <!-- Add this script tag after including the Bootstrap CSS and JavaScript files -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Bootstrap CSS and JS -->
 </head>
 
 <body>
-  <div class="container-fluid position-absolute">
+  <div class="container-fluid ">
     <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="logo"><a href="#"><img src="images/logo.png" width="100px" height="80px" /></a></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="font-size: 25px;"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="accomodation.html">Accomodation </a>
+          <li class="nav-item">
+            <a class="nav-link" href="accomodation.html">Accommodation</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="destination.html">Destinations </a>
+          <li class="nav-item">
+            <a class="nav-link" href="destination.html">Destinations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="weddings.html">Weddings</a>
@@ -45,27 +43,31 @@
           <li class="nav-item">
             <a class="nav-link" href="experiences.html">Experiences</a>
           </li>
-          <a href="#"><img src="images/logo.png" width="100px" height="80px"></a>
+          <!-- <li class="nav-item">
+            <a href="#"><img src="images/logo.png" width="100px" height="80px"></a>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="food&dining.html">Food & Dining</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="pavitra-spa.html">Pavitra Spa </a>
+          <li class="nav-item">
+            <a class="nav-link" href="pavitra-spa.html">Pavitra Spa</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="contactus.html">Contact Us </a>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Quick Pay </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quick Pay</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Book Now </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Book Now</a>
           </li>
         </ul>
       </div>
     </nav>
+
+
   </div>
-  <div id="carouselExampleControls" class="carousel slide mt-0" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide mt-5 " data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="images/front-scaled.jpg" alt="First slide">
@@ -102,20 +104,20 @@
     </a>
   </div>
   <div class="container center-container">
-    <div class="row m-5 p-5 pt-0">
+    <div class="row p-0 mt-5 mb-5">
       <div class="col-md-6 align-items-center">
         <h2>EXPERIENCE DISCERNING LUXURY!</h2>
         <p>Located against the picturesque backdrop of the Aravalli hills, the resort and offers an exquisite and unique
           stay experience in the lap of nature. </p>
         <p>A unique blend of affordability and luxury experience are what defines the truly magnificent and rejuvenating
           stay experience at the heritage villa hotel built in the lap of natural opulence.</p>
-        <img src="images/hotellogo.jpg" alt="hotellogo" width="30%" height="20%" id="logo">
+        <img src="images/hotellogo.jpg" alt="hotellogo" width="30%" height="20%" id="logo" class="hotellogo">
       </div>
       <div class="col-md-6">
         <img src="images/hotel.jpg" alt="hotel image" width="85%" height="73%" id="scrolling-image">
       </div>
     </div>
-    <div class="row about-container p-5 pt-0">
+    <div class="row about-container  p-0 pt-5">
       <div class="col-md-6">
         <h2>About Rajasthali Resort and Spa</h2>
         <b>A unique blend of tradition and dynamism!</b>
@@ -170,9 +172,9 @@
           our service culture and practices, we welcome you to a one-of-a-kind luxury experience at Rajasthali.</p>
       </div>
     </div>
-    <div class="row p-5 pt-0 pb-0">
+    <div class="row p-5 pt-0 pb-0 bootstrap-cards">
       <div class="col-sm-8 all-cards">
-        <div class="card text-center p-4"
+        <div class="card text-center p-4 bootstrap-cards"
           style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.65) 80%), url('images/10-scaled.jpg'); background-size: cover; border-radius: 1%;">
           <div class="card-body d-flex flex-column justify-content-center align-items-center">
             <h5 class="card-title">Premium Palace Rooms</h5>
@@ -185,13 +187,13 @@
         </div>
       </div>
       <div class="col-sm-4 mt-3">
-        <div class="card text-center p-4"
+        <div class="card text-center p-4 "
           style="background-image: linear-gradient(180deg, #d2ae6d 0%, #d2ae6d); background-size: cover; border-radius: 1%;">
           <div class="card-body d-flex flex-column justify-content-center align-items-center">
             <h5 class="card-title text-uppercase">View last minute avaibility</h5>
           </div>
         </div>
-        <div class="card text-center p-4 mt-3"
+        <div class="card text-center p-4 mt-3  "
           style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.65) 80%), url('images/6-scaled.jpg'); background-size: cover; border-radius: 1%;">
           <div class="card-body">
             <h5 class="card-title">Deluxe Palace Room</h5>
@@ -200,8 +202,8 @@
         </div>
       </div>
     </div>
-    <div class="row p-4">
-      <div class="col-sm-4">
+    <div class="row p-4 bootstrap-cards">
+      <div class="col-sm-4 mt-3">
         <div class="card text-center"
           style="height: 35vh; background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.65) 80%), url('images/VR2_8895-1-scaled.jpg'); background-size: cover; border-radius: 1%;">
           <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -210,7 +212,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mt-3">
         <div class="card text-center"
           style="height: 35vh; background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.65) 80%), url('images/vr2_8398-1-min-1.jpg'); background-size: cover; border-radius: 1%;">
           <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -219,7 +221,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mt-3">
         <div class="card text-center"
           style="height: 35vh; background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.65) 80%), url('images/VR2_8354-min-scaled.jpg'); background-size: cover; border-radius: 1%;">
           <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -230,7 +232,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid full-background">
+  <div class="container-fluid full-background mt-3">
     <div class="row">
       <div class="col-md-12">
         <h3>RESTAURANT & BAR</h3>
@@ -349,10 +351,13 @@
     // Function to handle scroll events
     function handleScroll() {
       const header = document.querySelector('.navbar.fixed-top');
+      const hamburger = document.querySelector('.fa-solid.fa-bars');
       if (window.scrollY > 0) {
-        header.style.backgroundColor = '#000'; // Change the background color when scrolled
+        // header.style.backgroundColor = '#000'; // Change the background color when scrolled
+        // hamburger.style.color = '#fff';
       } else {
-        header.style.backgroundColor = 'transparent'; // Reset to transparent when at the top
+        // Reset to transparent when at the top
+        // hamburger.style.color = '#000';
       }
     }
 
@@ -362,6 +367,16 @@
     // Call the function once to set the initial state based on the page's scroll position
     handleScroll();
   </script>
+  <!-- Add these lines to include Bootstrap and jQuery -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
 
 </body>
 
