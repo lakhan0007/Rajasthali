@@ -1,0 +1,217 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'GFS Didot', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif; */
+
+.image-one {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.container-one {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  box-shadow: inset 0 0 150px rgb(2, 57, 82);
+}
+
+.container-one > .text-container {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text-container > h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+.text-container > p {
+  font-family: 'Cinzel', serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+}
+.button-outline {
+  border: 2px solid white;
+  padding: 5px 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+.button-outline > a {
+  color: white !important;
+  font-size: 20px;
+}
+.button-outline:focus {
+  outline: none;
+}
+.text-container-two {
+  padding: 50px 100px;
+}
+.text-container-two > h1 {
+  font-family: 'Playfair Display', serif;
+}
+.text-container-two > p {
+  font-family: 'Playfair Display', serif;
+}
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-center h1 {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+}
+.container-center p {
+  font-size: 16px;
+  color: rgb(48, 48, 48);
+  font-family: 'Libre Baskerville', serif;
+}
+.about-text {
+  text-align: center;
+}
+.about-text > h1 {
+  font-size: 40px;
+  font-family: 'Cinzel', serif;
+}
+.about-text > h3 {
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
+.about-text > p {
+  font-family: 'Cinzel', serif;
+}
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.rooms-img-top {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-body > h6 {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: #d2ae6d !important;
+}
+.accommodation {
+  background: rgba(2, 57, 82, 0.1);
+}
+.text-accommodation {
+  /* background: linear-gradient(105deg, #d2ae6d, #d2ae6d); */
+  text-align: center;
+}
+.text-accommodation > h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+}
+.text-accommodation > p {
+  font-family: 'GFS Didot', serif;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+}
+.know-more {
+  background-color: #d2ae6d;
+
+  width: 100%;
+  text-align: center;
+  margin-top: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.know-more:hover {
+  background-color: transparent;
+  border: 1px solid #d2ae6d;
+}
+.know-more > a {
+  color: white;
+  font-size: 16px;
+}
+.know-more:hover a {
+  color: #d2ae6d;
+}
+.container-two {
+  background: rgba(2, 57, 82, 0.1);
+  text-align: center;
+}
+.container-two > img {
+  width: 70%;
+  margin-bottom: 50px;
+}
+.container-two > h1 {
+  font-family: 'Great Vibes', cursive;
+}
+.container-two > p {
+  font-family: 'Great Vibes', cursive;
+}
+.second-container {
+  display: flex;
+  justify-content: center;
+}
+.second-container > h2 {
+  text-align: center;
+  width: max-content;
+  border-bottom: 2px solid #d2ae6d;
+  font-size: 44px;
+  color: #d2ae6d;
+  font-family: 'Libre Baskerville', serif;
+}
+@media only screen and (max-width: 768px) {
+  .container-one {
+    align-items: center;
+    box-shadow: inset 0 0 50px rgba(2, 57, 82, 0.364);
+  }
+  .container-one > .text-container {
+    width: 90%;
+  }
+  .text-container > h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .text-container > p {
+    font-family: 'Cinzel', serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+  }
+  .container-center h1 {
+    font-size: 30px;
+  }
+  .container-center p {
+    font-size: 14px;
+  }
+  .about-text > h1 {
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+  }
+  .about-text > h3 {
+    font-size: 24px;
+    font-family: 'Cinzel', serif;
+  }
+  .about-text > p {
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+  }
+
+  .text-accommodation > h1 {
+    font-size: 34px;
+  }
+  .text-accommodation > p {
+    font-size: 16px;
+  }
+}

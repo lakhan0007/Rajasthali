@@ -3,9 +3,12 @@ body {
   padding: 0;
 }
 .navbar {
-  background-color: #000;
+  font-family: 'Cinzel', serif;
   color: #cdcdcd;
-  z-index: 100;
+  width: 100vw;
+  padding: 0;
+  padding-left: 10px;
+  z-index: 10;
 }
 .logo {
   margin: 10px 20px;
@@ -397,18 +400,12 @@ section {
   /* min-height: 100vh;*/
 }
 .footer {
-  /* background: linear-gradient(105deg,#d2ae6d ,#d2ae6d); */
   background-image: url('../images/testimonail_bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 40px;
 }
-/*END FOOTER SOCIAL DESIGN*/
-@media only screen and (max-width: 768px) {
-  .single_footer {
-    margin-bottom: 30px;
-  }
-}
+
 .single_footer h4 {
   color: #000000;
   margin-top: 0;
@@ -482,11 +479,6 @@ section {
   text-transform: capitalize;
   width: 100%;
 }
-@media only screen and (max-width: 768px) {
-  .subscribe__input {
-    padding: 0 50px 0 20px;
-  }
-}
 
 .subscribe__btn {
   background-color: transparent;
@@ -503,11 +495,6 @@ section {
 }
 .subscribe__btn i {
   transition: all 0.3s ease 0s;
-}
-@media only screen and (max-width: 768px) {
-  .subscribe__btn {
-    right: 0px;
-  }
 }
 
 .subscribe__btn:hover i {
@@ -549,6 +536,7 @@ button {
   display: block;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 @media only screen and (max-width: 768px) {
   .social_profile ul li a {
     margin-right: 10px;
@@ -566,6 +554,25 @@ button {
   }
   .bootstrap-cards {
     padding: 0 !important;
+  }
+  .subscribe__input {
+    padding: 0 50px 0 20px;
+  }
+  .cover-image {
+    height: 80vh;
+    width: 100%;
+  }
+  .subscribe__btn {
+    right: 0px;
+  }
+  .navbar {
+    background-color: hsla(0, 0%, 0%);
+  }
+  .single_footer {
+    margin-bottom: 30px;
+  }
+  .logo img {
+    width: 80px;
   }
 }
 @media only screen and (max-width: 480px) {
