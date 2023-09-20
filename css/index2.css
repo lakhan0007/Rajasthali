@@ -19,9 +19,18 @@ font-family: 'Playfair Display', serif; */
   display: flex;
   justify-content: center;
   align-items: end;
+}
+.boxShadow {
   box-shadow: inset 0 0 150px rgb(2, 57, 82);
 }
-
+.container-three {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
 .container-one > .text-container {
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -31,6 +40,7 @@ font-family: 'Playfair Display', serif; */
   width: 50%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .text-container > h1 {
   color: white;
   font-weight: 600;
@@ -41,6 +51,7 @@ font-family: 'Playfair Display', serif; */
   color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
 }
+
 .button-outline {
   border: 2px solid white;
   padding: 5px 20px;
@@ -60,7 +71,23 @@ font-family: 'Playfair Display', serif; */
 .text-container-two > h1 {
   font-family: 'Playfair Display', serif;
 }
-.text-container-two > p {
+.text-container-two,
+.text-container-three > p {
+  font-family: 'Playfair Display', serif;
+}
+.text-container-three {
+  max-width: 90vw;
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+}
+.text-container-three > h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.text-container-two,
+.text-container-three > p {
   font-family: 'Playfair Display', serif;
 }
 .container-center {
@@ -170,6 +197,9 @@ font-family: 'Playfair Display', serif; */
   font-size: 44px;
   color: #d2ae6d;
   font-family: 'Libre Baskerville', serif;
+}
+.card-content {
+  height: 200px;
 }
 @media only screen and (max-width: 768px) {
   .container-one {

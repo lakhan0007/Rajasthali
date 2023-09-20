@@ -10,7 +10,7 @@
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/accomodation.css" />
+    <link rel="stylesheet" href="css/index2.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <!-- Add this script tag after including the Bootstrap CSS and JavaScript files -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -22,7 +22,7 @@
 
 <body>
     <div class="container-fluid position-absolute">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg position-absolute">
             <div class="logo"><a href="#"><img src="images/logo.png" width="100px" height="80px" /></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,23 +31,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home </a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="accomodation.html">Accommodation </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accomodation.html">Accommodation</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="destination.html">Destinations</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="weddings.html">Weddings</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="experiences.html">Experiences</a>
                     </li>
                     <!-- <li class="nav-item">
-                                <a href="#"><img src="images/logo.png" width="100px" height="80px"></a>
-                              </li> -->
+                    <a href="#"><img src="images/logo.png" width="100px" height="80px"></a>
+                  </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="food&dining.html">Food & Dining</a>
                     </li>
@@ -58,87 +58,122 @@
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quick Pay</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book Now</a>
+                        <a class="nav-link"
+                            href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book
+                            Now</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="container-fluid p-0 first-container">
-        <img src="images/lifestyle-scaled.jpg" alt="Snow" class="cover-image">
-        <div class="centered">
+
+
+    <div class="container-one">
+        <img src="images/lifestyle-scaled.jpg" alt="First slide" class="image-one position-absolute">
+        <div class="text-container">
             <h1>Experience the culture and amazement of Rajasthali!</h1>
         </div>
     </div>
-    <div class="container">
+
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Unique Dining Experience</h2>
-                    <p>Indulge in a once in a lifetime opportunity as we curate an extravagant, ubiquitous and certainly
-                        personalized dining
-                        experience at Rajasthali. Be it against the picturesque backdrop of the Aravallis or the
-                        breathtaking silhouette of the
-                        hotel in the evening, we strive, with our entire team to bring to you the Unique Dining
-                        Experience unlike anything else.</p>
-                </section>
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class=" shadow">
+                    <div class="card-body ">
+                        <h6>Unique Dining Experience</h6>
+                        <img src="/images/lifestyle-scaled.jpg" alt="activity" class="card-img-top img-fluid mb-4">
+                        <p class="card-content">Indulge in a once in a lifetime opportunity as we curate an extravagant,
+                            ubiquitous and certainly
+                            personalized dining
+                            experience at Rajasthali. Be it against the picturesque backdrop of the Aravallis or the
+                            breathtaking silhouette of the
+                            hotel in the evening, we strive, with our entire team to bring to you the Unique Dining
+                            Experience unlike anything else.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Yoga</h2>
-                    <p>Irrespective of whether you are a beginner or have practiced Yoga for many years, our Yoga
-                        sessions are customized as per your requirement and give you a refreshed mind, body and soul.
-                    </p>
-                </section>
+            <div class=" col-md-6 col-12 container-center mb-4">
+                <div class="shadow">
+                    <div class="card-body ">
+                        <h6>Yoga</h6>
+                        <img src="/images/yoga-scaled.jpg" alt="" class="card-img-top img-fluid mb-4">
+                        <p class="card-content">Irrespective of whether you are a beginner or have practiced Yoga for
+                            many years, our Yoga
+                            sessions are customized as per your requirement and give you a refreshed mind, body and
+                            soul.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Sports</h2>
-                    <p>Our lush green lawns ensure there is never a lazy moment for those who love to keep their
-                        adrenaline pump and want to
-                        get involved in leisurely as well as competitive sports. We provide our guests with Cricket
-                        Kits, Badminton, a volley
-                        ball court, football, and much more to make sure our guests make the most of their time at our
-                        resort.</p>
-                </section>
+            <div class=" col-md-6 col-12 container-center mb-4">
+                <div class=" shadow">
+                    <div class="card-body ">
+                        <h6>Sports</h6>
+                        <img src="/images/sports.png" alt="" class="card-img-top img-fluid mb-4">
+                        <p class="card-content">Our lush green lawns ensure there is never a lazy moment for those who
+                            love to keep their
+                            adrenaline pump and want to
+                            get involved in leisurely as well as competitive sports. We provide our guests with Cricket
+                            Kits, Badminton, a volley
+                            ball court, football, and much more to make sure our guests make the most of their time at
+                            our
+                            resort.</p>
+                    </div>
+                </div>
             </div>
+            <div class=" col-md-6 col-12 container-center mb-4">
+                <div class=" shadow">
+                    <div class="card-body ">
+                        <h6>Biking Trail</h6>
+                        <img src="/images/VR2_8879-min-scaled.jpg" alt="" class="card-img-top img-fluid mb-4">
+                        <p class="card-content"> In mood for some adventure while you are at the Aravalis? For the
+                            thrill seekers, our trail
+                            bikes
+                            give you a perfect
+                            opportunity to explore the Aravalis and tread on to a bike ride amidst the beautiful
+                            Aravalli.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="  col-md-6 col-12 container-center mb-4">
+                <div class=" shadow">
+                    <div class="card-body ">
+                        <h6>Kalbelia</h6>
+                        <img src="/images/WhatsApp-Image-2021-09-03-at-3.53.17-AM.jpeg" alt=""
+                            class="card-img-top img-fluid mb-4">
+                        <p class="card-content">Visiting the dessert land and yet not seen the beauty of the dessert? At
+                            Rajasthali, we
+                            believe
+                            in curating the local
+                            experience for our guests to give them a glimpse into the many colors of Rajasthan! Visit
+                            the
+                            local village for a
+                            surreal experience or be a part of the Kalbelia dancers as they groove to the music of the
+                            dessert land in the evening!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  col-md-6 col-12 container-center mb-4">
+                <div class=" shadow">
+                    <div class="card-body ">
+                        <h6>Jeep Safari to Amer Fort</h6>
+                        <img src="/images/146.jpg" alt="" class="card-img-top img-fluid mb-4">
+                        <p class="card-content">Let our team curate an unforgettable memory for you of going on a jeep
+                            safari to the Amer
+                            Fort –
+                            the most regal and
+                            heralded fort of Jaipur. Watch the sunrise from the jeep at Amer while you sip on a cup of
+                            hot
+                            tea, brough along by the
+                            server.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Biking Trail</h2>
-                    <p>In mood for some adventure while you are at the Aravalis? For the thrill seekers, our trail bikes
-                        give you a perfect
-                        opportunity to explore the Aravalis and tread on to a bike ride amidst the beautiful Aravalli.
-                    </p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Kalbelia</h2>
-                    <p>Visiting the dessert land and yet not seen the beauty of the dessert? At Rajasthali, we believe
-                        in curating the local
-                        experience for our guests to give them a glimpse into the many colors of Rajasthan! Visit the
-                        local village for a
-                        surreal experience or be a part of the Kalbelia dancers as they groove to the music of the
-                        dessert land in the evening!</p>
-                </section>
-            </div>
-            <div class="col-md-4">
-                <section class="my-3">
-                    <h2>Jeep Safari to Amer Fort</h2>
-                    <p>Let our team curate an unforgettable memory for you of going on a jeep safari to the Amer Fort –
-                        the most regal and
-                        heralded fort of Jaipur. Watch the sunrise from the jeep at Amer while you sip on a cup of hot
-                        tea, brough along by the
-                        server.</p>
-                </section>
-            </div>
+        <div>
         </div>
     </div>
     <hr />

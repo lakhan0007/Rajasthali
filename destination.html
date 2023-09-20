@@ -10,7 +10,8 @@
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/destination.css" />
+    <link rel="stylesheet" href="css/index2.css" />
+    <!-- <link rel="stylesheet" href="css/destination.css" /> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <!-- Add this script tag after including the Bootstrap CSS and JavaScript files -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -21,7 +22,7 @@
 
 <body>
     <div class="container-fluid position-absolute">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg position-absolute">
             <div class="logo"><a href="#"><img src="images/logo.png" width="100px" height="80px" /></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +31,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home </a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="accomodation.html">Accommodation </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accomodation.html">Accommodation</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="destination.html">Destinations</a>
@@ -57,113 +58,152 @@
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quick Pay</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book Now</a>
+                        <a class="nav-link"
+                            href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book
+                            Now</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="container-fluid p-0 first-container">
-        <img src="images/pexels-poonam-sharma-6185650-scaled.jpg" alt="Snow" class="cover-image">
-        <div class="centered">
+    <div class="container-one">
+        <img src="images/pexels-poonam-sharma-6185650-scaled.jpg" alt="First slide" class="image-one position-absolute">
+        <div class="text-container">
             <h1>Rajasthali Resort & Destinations</h1>
             <p>A colorful amalgamation of the old and the new mingle in Jaipur. Here you will come across a multitude of
                 forts and palaces as well as urban neighborhoods and shopping areas. And exploring these attractions
                 offers a range of fun things to do in Jaipur.</p>
-            <button type="button" class="btn btn-outline-light"><a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book Now</a></button>
+            <button class="button-outline mt-4"><a>Book Now</a></button>
         </div>
     </div>
-    <div class="container p-4 mt-5 second-container">
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Destinations</h2>
-                <p>Jaipur, the Pink City, is essentially located in the heart of Rajasthan. Cited as a UNESCO Heritage
-                    City, Jaipur is home to some of the finest architecture, awe-inspiring history and exquisite
-                    shopping areas where one can find everything ranging from the finest local marksmanship to stunning
-                    pieces of jewelry and others. When in Jaipur, the term ‘Khamma Ghani’ is not just a ‘Welcome’, but
-                    rather a ‘Welcome to the Heart of Rajasthan!’</p>
+            <div class="col-md-6 col-12 container-center">
+                <div class="box ">
+                    <h1 class="mb-4">Destinations</h1>
+                    <p>Jaipur, the Pink City, is essentially located in the heart of Rajasthan. Cited as a UNESCO
+                        Heritage
+                        City, Jaipur is home to some of the finest architecture, awe-inspiring history and exquisite
+                        shopping areas where one can find everything ranging from the finest local marksmanship to
+                        stunning
+                        pieces of jewelry and others. When in Jaipur, the term ‘Khamma Ghani’ is not just a ‘Welcome’,
+                        but
+                        rather a ‘Welcome to the Heart of Rajasthan!’</p>
+                </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 image-frame mt-5">
-                <img src="images/kirti-kalla-JRhvllDBhzs-unsplash-scaled.jpg" alt="side_image"
-                    style="width: 100%; height: 90vh;">
-            </div>
-        </div>
-    </div>
-    <div class="container p-4 mt-5 third-container">
-        <div class="row">
-            <div class="col-md-6 p-5 pt-4">
-                <img src="images/destination1.jpg" alt="side_image">
-            </div>
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Visit the evening fanfare of Jal Mahal!</h2>
-                <p>Admire the exotic architectural styles that combine both Mughal and Rajput characteristics at Jal
-                    Mahal or Water Palace in Jaipur. This fort is like a jewel nestled among the Nahargarh hills and
-                    situated on the Mansagar Lake. It was built as a summer resort for the royal family and was used to
-                    host duck-hunting parties. Enjoy the quaint early evening fanfare at the banks of the fort as you
-                    see the sun setting behind the Lake.</p>
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/kirti-kalla-JRhvllDBhzs-unsplash-scaled.jpg" alt="side_image">
+                </div>
             </div>
         </div>
     </div>
-    <div class="container p-4 mt-5 second-container">
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Watch the sunrise at Nahargarh Fort!</h2>
-                <p>Experience the astounding sunrise from the peak of Jaipur or witness the unique combination of Indian
-                    and European architectural styles at the grand Nahargarh fort. According to local legend, Nahar
-                    Singh Bhomia was a Rathore prince who was not happy with the construction of this fort on his land
-                    and haunted the place. Jai Singh who was building the fort then pacified his spirit by dedicating
-                    the fort in his name.</p>
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/destination1.jpg" alt="side_image" class="rooms-img-top">
+                </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 image-frame pt-1 mt-5">
-                <img src="images/nahargarh-scaled.jpg" alt="side_image" style="width: 100%; height: 90vh;">
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class="box ">
+                    <h1> Visit the evening fanfare of Jal Mahal!</h2>
+                        <p>Admire the exotic architectural styles that combine both Mughal and Rajput characteristics at
+                            Jal
+                            Mahal or Water Palace in Jaipur. This fort is like a jewel nestled among the Nahargarh hills
+                            and
+                            situated on the Mansagar Lake. It was built as a summer resort for the royal family and was
+                            used to
+                            host duck-hunting parties. Enjoy the quaint early evening fanfare at the banks of the fort
+                            as you
+                            see the sun setting behind the Lake.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container p-4 mt-5 third-container">
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-6 p-5 pt-3">
-                <img src="images/destination3.jpg" alt="side_image">
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class="box ">
+                    <h1>Watch the sunrise at Nahargarh Fort!</h1>
+                    <p>Experience the astounding sunrise from the peak of Jaipur or witness the unique combination of
+                        Indian
+                        and European architectural styles at the grand Nahargarh fort. According to local legend, Nahar
+                        Singh Bhomia was a Rathore prince who was not happy with the construction of this fort on his
+                        land
+                        and haunted the place. Jai Singh who was building the fort then pacified his spirit by
+                        dedicating
+                        the fort in his name.</p>
+                </div>
             </div>
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Ride an elephant at the Amer Fort!</h2>
-                <p>One of the most fun things to do in Jaipur is to go on an elephant ride exploring the cobbled paths
-                    and large gateways of the Amer Fort. Blending Rajput and Hindu artistic elements, Amer Fort was
-                    built in the 16th century by Raja Shri Maan Singh Ji Saheb.</p>
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/nahargarh-scaled.jpg" alt="side_image" class="rooms-img-top">
+                </div>
             </div>
         </div>
     </div>
-    <div class="container p-4 mt-5 second-container">
+
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Shop till you drop at Johri Bazaar!</h2>
-                <p>Go crazy shopping at Jaipur where you will be able to find the most authentic and traditional
-                    Rajasthani jewellery and clothes. Buy precious gemstones at Johari Bazaar, pick up lac jewelry at
-                    Tripolia Bazaar, shop for marble sculptures at Chandpol Bazaar and get some amazing deals on wooden
-                    souvenirs and colorful handicrafts at Mirza Ismail Road (MI. Road). You can also pick up Rajasthani
-                    jootis and blue pottery at Nehru Bazaar and mojari shoes and leather products at Bapu Bazaar.</p>
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/destination3.jpg" alt="side_image" class="rooms-img-top">
+                </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 image-frame mt-5">
-                <img src="images/destination4.jpg" alt="side_image">
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class="box ">
+                    <h1>Ride an elephant at the Amer Fort!</h1>
+                    <p>One of the most fun things to do in Jaipur is to go on an elephant ride exploring the cobbled
+                        paths
+                        and large gateways of the Amer Fort. Blending Rajput and Hindu artistic elements, Amer Fort was
+                        built in the 16th century by Raja Shri Maan Singh Ji Saheb.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container p-4 mt-5 third-container">
+
+    <div class="container p-5">
         <div class="row">
-            <div class="col-md-6 p-5 pt-3">
-                <img src="images/destination5.jpg" alt="side_image">
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class="box ">
+                    <h1>Shop till you drop at Johri Bazaar!</h1>
+                    <p>Go crazy shopping at Jaipur where you will be able to find the most authentic and traditional
+                        Rajasthani jewellery and clothes. Buy precious gemstones at Johari Bazaar, pick up lac jewelry
+                        at
+                        Tripolia Bazaar, shop for marble sculptures at Chandpol Bazaar and get some amazing deals on
+                        wooden
+                        souvenirs and colorful handicrafts at Mirza Ismail Road (MI. Road). You can also pick up
+                        Rajasthani
+                        jootis and blue pottery at Nehru Bazaar and mojari shoes and leather products at Bapu Bazaar.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-6 pt-0 second-head">
-                <h2>Experience Jaipur from an Eagle’s view!</h2>
-                <p>Drift over the Pink City in a hot air balloon and experience the mesmerizing views of the forts and
-                    palaces nestled among the Aravalli ranges. Enjoy the plethora of colors and sounds of this city from
-                    up above.</p>
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/destination4.jpg" alt="side_image" class="rooms-img-top">
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="box">
+                    <img src="images/destination5.jpg" alt="side_image" class="rooms-img-top">
+                </div>
+            </div>
+            <div class="col-md-6 col-12 container-center mb-4">
+                <div class="box ">
+                    <h1>Experience Jaipur from an Eagle’s view!</h1>
+                    <p>Drift over the Pink City in a hot air balloon and experience the mesmerizing views of the forts
+                        and
+                        palaces nestled among the Aravalli ranges. Enjoy the plethora of colors and sounds of this city
+                        from
+                        up above.</p>
+                </div>
+            </div>
+
         </div>
     </div>
     <hr />

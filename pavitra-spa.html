@@ -10,7 +10,7 @@
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/destination.css" />
+    <link rel="stylesheet" href="css/index2.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <!-- Add this script tag after including the Bootstrap CSS and JavaScript files -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -21,7 +21,7 @@
 
 <body>
     <div class="container-fluid position-absolute">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg position-absolute">
             <div class="logo"><a href="#"><img src="images/logo.png" width="100px" height="80px" /></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,24 +30,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home </a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="accomodation.html">Accommodation </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accomodation.html">Accommodation</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="destination.html">Destinations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="weddings.html">Weddings</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="experiences.html">Experiences</a>
                     </li>
-                    <!-- <li class="nav-item">
-                                <a href="#"><img src="images/logo.png" width="100px" height="80px"></a>
-                              </li> -->
-                    <li class="nav-item ">
+
+                    <li class="nav-item">
                         <a class="nav-link" href="food&dining.html">Food & Dining</a>
                     </li>
                     <li class="nav-item active">
@@ -57,24 +55,24 @@
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quick Pay</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book Now</a>
+                        <a class="nav-link"
+                            href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book
+                            Now</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="container-fluid p-0 first-container">
-        <img src="images/spa-scaled.jpg" alt="Snow" style="width:100%;">
-        <div class="centered">
+    <div class="container-one boxShadow">
+        <img src="images/spa-scaled.jpg" alt="First slide" class="image-one position-absolute">
+        <div class="text-container">
             <p>RELAX, REJUVENATE, REBALANCE</p>
             <h1>Pavitra Spa</h1>
             <p>RELAX, REJUVENATE, REBALANCE</p>
-            <button type="button" class="btn btn-outline-light"><a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=NDU2Mg==&individual=true">Book Now</a></button>
+            <button type="button" class="btn btn-outline-light">Book Now</button>
         </div>
     </div>
+
 
     <hr />
     <div class="footer">
